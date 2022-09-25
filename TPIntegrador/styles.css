@@ -1,0 +1,18 @@
+nav {
+	background-color: #343a40!important;
+}
+
+nav ul li a{
+	color: white!important;
+}
+
+footer {
+	background: rgb(28,54,67);
+background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(29,66,85,1) 31%, rgba(29,73,98,1) 64%, rgba(30,83,113,1) 100%);
+}
+
+footer ul li{
+	display: flexbox;
+	align-content: center;
+	justify-content: center;
+}
