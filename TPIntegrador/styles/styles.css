@@ -16,3 +16,11 @@ footer ul li{
 	align-content: center;
 	justify-content: center;
 }
+
+.btnType1 {
+    background-color: #97c93e;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 8px;
+}

@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1 h2 h3 h4 {
+	padding: 0px;
+	margin: 0px;
+}
+/* My css */
+/* Header */
+header{
+    background-color: #353a40;
+}
+
+/* Main */
+main {
+    padding: 4vh 17vw 4vh 17vw;
+}
+.option1 {
+    border: 2px solid #66abf8;
+}
+.option2 {
+    border: 2px solid #3fb0c2;
+}
+.option3 {
+    border: 2px solid #fbc932;
+}
+.botones {
+    background-color: #97c93e;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 5vh;
+}
+.botones:hover {
+    color: rgb(255, 255, 255);
+    background-color: #6bb323;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input {
+border: 1px solid #d1d6dc;
+height: 5vh;
+width: 100%;
+border-radius: 5px;
+}
+.selector {
+border: 1px solid #d1d6dc;
+height: 5vh;
+width: 100%;
+border-radius: 5px;
+}
+.price {
+background-color: #cce5ff;
+height: 6vh;
+border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-image: linear-gradient(to right, #1a3644 , #1d4e6c);
+}
+li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
